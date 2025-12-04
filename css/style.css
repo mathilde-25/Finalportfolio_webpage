@@ -55,32 +55,12 @@ p {
     text-align: left;
 }
 
-ul {
-    list-style-type: square;
+.text-box {
+    width: 460px;
+    height: 182px;
+    border-radius: 5px;
+    background: linear-gradient(180deg, #236E7A 0%, #121619 100%);
 }
-
-ol {
-    list-style-type: upper-roman;
-}
-
-li {
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.fave {
-    color: orangered;
-}
-
-.pizza {
-    width: 50%;
-}
-
-a {
-    color: white;
-}
-
 /* Cake page */
 
 .cake-text {
