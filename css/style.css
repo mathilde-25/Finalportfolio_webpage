@@ -69,3 +69,14 @@ h4 {
     color: #236E7A;
     text-align: center;
 }
+
+.col-md-4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+ 
