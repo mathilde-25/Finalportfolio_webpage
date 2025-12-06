@@ -63,39 +63,9 @@ p {
     text-align: center;
     background: linear-gradient(180deg, #236E7A 0%, #121619 100%);
 }
-/* Cake page */
 
-.cake-text {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left;
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.section-one {
-    border: 1px solid white;
-    background-color: darkslateblue;
-}
-
-.caption {
-    font-size: 15px;
-    font-style: italic;
+h4 {
+    font-family: serif;
+    color: #236E7A;
     text-align: center;
-}
-
-.container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.cake-item {
-    width: 275px;
-    height: 275px;
-    padding: 4px;
-}
-
-.cake-group{
-    width: 275px;
 }
