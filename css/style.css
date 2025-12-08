@@ -10,6 +10,7 @@ h1{
 h2{
     font-family: serif;
     text-decoration: underline;
+    color: #236E7A !important;
 }
 
 p {
@@ -46,6 +47,14 @@ p {
     font-weight: 500;
     color: rgb(255, 255, 255);
 
+}
+
+.openAI {
+    text-align: center;
+    font-family:sans-serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    opacity: 0.55;
 }
 
 .name-mathilde {
@@ -88,6 +97,7 @@ h4 {
     font-family: serif;
     color: #236E7A;
     text-align: center;
+    text-decoration: underline;
 }
 
 .col-md-4 {
