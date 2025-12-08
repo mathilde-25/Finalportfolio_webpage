@@ -77,6 +77,16 @@ h4 {
     flex-direction: column;
 }
 
+.text-box2 {
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background: linear-gradient(180deg, #236E7A 0%, #121619 100%);
+}
+
+
 
 
  
