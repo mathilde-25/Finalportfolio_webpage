@@ -75,51 +75,64 @@
 
     </div>
 
-        <!-- middle row for robot pics -->
-<div class="container">
-  <div class="row mb-3" style="align-items: end;">
-    <div class="col-12 col-sm-6 col-md-4">
-      <img src="images/robotfront.png" class="img-fluid" alt="...">
-    </div>
-
-    <div class="col-12 col-sm-6 col-md-4">
-      <h4 class="mt-4">Principles of 3D Environments</h4>
-      <img src="images/robotrendered.png" class="img-fluid mt-4" alt="...">
-    </div>
-
-    <div class="col-12 col-sm-6 col-md-4">
-      <img src="images/robotback.png" class="img-fluid img-right" alt="...">
-    </div>
-
+<!-- middle row for robot pics -->
+ <div class="container d-none d-md-block">
+    <div class="row mb-3 align-items-end">
+        <div class="col-md-4">
+          <img src="images/robotfront.png" class="img-fluid" alt="Robot Front">
+        </div>
+        <div class="col-md-4 text-center">
+          <h4 class="mt-4">Principles of 3D Environments</h4>
+          <img src="images/robotrendered.png" class="img-fluid mt-4" alt="Robot Rendered">
+        </div>
+    <div class="col-md-4">
+    <img src="images/robotback.png" class="img-fluid" alt="Robot Back">
   </div>
-
-  <!-- row for blue boxes --> 
-  <div class="row mb-3" style="align-items: start;">
-    <div class="col-12 col-sm-6 col-md-4">
-
-       <!-- blue box --> 
-       <div class="text-box2 mt-3">
-      <p class="mt-2">For this assignment, we were tasked with creating a 3D robot in Maya. It quickly became my favorite project so far because it gave me the freedom to be creative and to experiment in ways I hadn’t tried before.<br><br>Design-wise, I took inspiration from R2-D2 in Star Wars, a character I’ve always liked. I began by modelling from an image reference that I imported into Maya, which helped me get the overall body structure right. I started modifying the design so it wouldn’t be an exact replica. One moment I enjoyed most was the actual building stage, especially extruding different parts of the body and legs. Creating those dimensions allowed me to add my own personal touches, such as unique buttons. </p>
+    </div>
+<!-- desktop screen size - text boxes row -->
+<div class="row mb-3 align-items-start">
+  <div class="col-md-4">
+   <div class="text-box2">
+<p>For this assignment, we were tasked with creating a 3D robot in Maya. It quickly became my favorite project so far because it gave me the freedom to be creative and to experiment in ways I hadn’t tried before.<br><br>Design-wise, I took inspiration from R2-D2 in Star Wars, a character I’ve always liked. I began by modelling from an image reference that I imported into Maya, which helped me get the overall body structure right. I started modifying the design so it wouldn’t be an exact replica. One moment I enjoyed most was the actual building stage, especially extruding different parts of the body and legs. Creating those dimensions allowed me to add my own personal touches, such as unique buttons.</p>
+  </div>
      </div>
+<div class="col-md-4">
+    <div class="text-box2">
+<p>A challenge I faced during the process was the 3000-triangle limit for the model. This restriction prevented me from using many spherical objects, and I didn’t want my robot to end up looking too blocky. Still, I managed to work within the limit by making careful shape choices and constantly keeping an eye on the tri count. The smoothing mesh tool was particularly helpful here.</p>
+  </div>
     </div>
-
-    <div class="col-12 col-sm-6 col-md-4">
-
-      <!-- blue box --> 
-       <div class="text-box2 mt-3">
-      <p class="mt-2">A challenge I faced during the process was the 3000-triangle limit for the model. This restriction prevented me from using many spherical objects, and I didn’t want my robot to end up looking too blocky. Still, I managed to work within the limit by making careful shape choices and constantly keeping an eye on the tri count. The smoothing mesh tool was particularly helpful here.</p>
-      </div> 
-    </div>
-
-    <div class="col-12 col-sm-6 col-md-4">
-
-      <!-- blue box --> 
-       <div class="text-box2 mt-3 ">
-      <p class="mt-2">Another highlight of the assignment was the rendering stage. I added lights to the robot’s buttons, and watching the scene slowly come to life through the lighting setup was incredibly satisfying. It created a specific atmosphere that made the robot feel much more dynamic.<br><br> Looking ahead, I would like to experiment more with textures. I’m interested in making objects feel dimensional not only through their physical structure but also through their color and material qualities.</p>
-       </div>
+<div class="col-md-4">
+  <div class="text-box2">
+<p>Another highlight of the assignment was the rendering stage. I added lights to the robot’s buttons, and watching the scene slowly come to life through the lighting setup was incredibly satisfying. It created a specific atmosphere that made the robot feel much more dynamic.<br><br>Looking ahead, I would like to experiment more with textures. I’m interested in making objects feel dimensional not only through their physical structure but also through their color and material qualities.</p>
     </div>
   </div>
-</div>
+
+    </div>
+  </div>
+
+<!-- phone screen size adapting code image+tetx-->
+      <div class="d-block d-md-none">
+ <!-- robot 1 -->
+      <div class = text-center mb-4> <!-- centres robot images -->
+        <img src="images/robotfront.png" class="img-fluid mb-2" alt="Robot Front">
+        <div class="text-box2 mb-4">
+          <p>For this assignment, we were tasked with creating a 3D robot in Maya. It quickly became my favorite project so far because it gave me the freedom to be creative and to experiment in ways I hadn’t tried before.<br><br>Design-wise, I took inspiration from R2-D2 in Star Wars, a character I’ve always liked. I began by modelling from an image reference that I imported into Maya, which helped me get the overall body structure right. I started modifying the design so it wouldn’t be an exact replica. One moment I enjoyed most was the actual building stage, especially extruding different parts of the body and legs. Creating those dimensions allowed me to add my own personal touches, such as unique buttons.</p>
+        </div>
+
+ <!-- robot 2 -->
+        <h4 class="mt-2">Principles of 3D Environments</h4>
+        <img src="images/robotrendered.png" class="img-fluid mb-2" alt="Robot Rendered">
+        <div class="text-box2 mb-4">
+          <p>A challenge I faced during the process was the 3000-triangle limit for the model. This restriction prevented me from using many spherical objects, and I didn’t want my robot to end up looking too blocky. Still, I managed to work within the limit by making careful shape choices and constantly keeping an eye on the tri count. The smoothing mesh tool was particularly helpful here.</p>
+        </div>
+
+<!-- Robot 3 -->
+        <img src="images/robotback.png" class="img-fluid mb-2" alt="Robot Back">
+        <div class="text-box2 mb-4">
+          <p>Another highlight of the assignment was the rendering stage. I added lights to the robot’s buttons, and watching the scene slowly come to life through the lighting setup was incredibly satisfying. It created a specific atmosphere that made the robot feel much more dynamic.<br><br>Looking ahead, I would like to experiment more with textures. I’m interested in making objects feel dimensional not only through their physical structure but also through their color and material qualities.</p>
+        </div>
+      </div>
+
 
 </main>
     <!-- this ends the main code -->
