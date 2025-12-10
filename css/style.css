@@ -40,7 +40,6 @@ p {
     color:black;
     text-align: center;
     font-family: serif;
-    font-size: clamp(1.5rem,8vw,3rem);
     word-wrap: break-word;  
     overflow-wrap: break-word;
     white-space: normal;
@@ -159,6 +158,9 @@ h4 {
 
 /* for phones layout */
 @media (max-width:480px){
+    .big-header h1 {
+        font-size: clamp(1.5rem,5vw,3rem);
+    }
     h1{
         font-size: clamp(1.5rem, 5vw, 3rem);
 }
