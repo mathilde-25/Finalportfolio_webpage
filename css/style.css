@@ -46,18 +46,22 @@ p {
     margin: 0 auto;
     font-weight: 400;
     line-height: normal;
+    white-space: nowrap;
     
 }
 
 .navbar {
     background-color: #236E7A !important;
     width: 100%;
-    white-space: normal;
-    display: inline-block;
+  
 }
 
 .navbar-brand{
     font-size: 20px;
+}
+
+.nav-link {
+    white-space: nowrap;
 }
 
 .nikolas{
