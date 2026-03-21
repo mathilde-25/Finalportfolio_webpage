@@ -36,6 +36,29 @@ h1{
     font-size: 80px ;
 }
 
+.circle-img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover; /*fills entire circle*/
+    border-radius: 50%; /*creates circle*/
+}
+
+.circle-middle{
+width: 350px;
+height: 350px;
+}
+
+/*shrink on phones */
+@media (max-width: 576px) {
+  .circle-img {
+    width: 100px;
+    height: 100px;
+  }
+  .circle-middle {
+    width: 150px;
+    height: 150px;
+  }
+}
 
 h2{
     font-family: serif;
