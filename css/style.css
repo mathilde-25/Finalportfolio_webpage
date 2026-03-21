@@ -25,9 +25,10 @@ body{
 }
 
 .custom-img {
-  width: 190%;
-  max-width: 500px;
-  height: auto;
+  width: 300px;        /* force square dimensions */
+  height: 300px;       /* same as width */
+  border-radius: 50%;  /* makes it circular */
+  object-fit: cover;   /* ensures image fills the circle nicely */
 }
 
 h1{
