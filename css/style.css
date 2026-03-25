@@ -23,9 +23,42 @@ body{
     padding-right: 20px;
 }
 
-.button-scroll-down{
+.navbar {
+    background-color: #401b06 !important;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+}
+
+.navbar-brand{
+    font-size: 20px;
+}
+
+.nav-link {
+    white-space: nowrap; 
+    color: white;
+}
+
+.intro {
+    font-size: 30px;
+}
+
+.button-scroll-down {
     padding: 50px;
-    filter: drop-shadow(30px 10px 4px #4444dd);
+    background-color: #F2B84B;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+    border: none;  
+    transition: background-color 0.3s ease;
+}
+
+.button-scroll-down:hover {
+    background-color: #ebab22; 
+}
+
+.button-scroll-down:focus {
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 .custom-img {
@@ -34,6 +67,14 @@ body{
   clip-path: circle(35%);
   shape-outside: circle(35%);
   object-fit: cover;   /* ensures image fills the circle nicely */
+}
+
+.bridge-img {
+    padding: 20px;
+    padding-bottom: 80px;
+    width: 1000px;  
+    height: auto; 
+    
 }
 
 h1{
@@ -105,22 +146,7 @@ p {
     
 }
 
-.navbar {
-    background-color: #F2DCC2 !important;
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  
-}
 
-.navbar-brand{
-    font-size: 20px;
-}
-
-.nav-link {
-    white-space: nowrap; 
-    color: black;
-}
 
 .nikolas{
      text-align: center;
