@@ -118,7 +118,8 @@ p {
 }
 
 .nav-link {
-    white-space: nowrap;
+    white-space: nowrap; 
+    color: black;
 }
 
 .nikolas{
