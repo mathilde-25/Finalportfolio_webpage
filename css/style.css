@@ -77,22 +77,6 @@ body{
     
 }
 
-.menu_image img {
-    width: 800px; 
-    height: auto; 
-    padding: 10px;
-    padding-top: 80px;
-
-}
-
-h1{
-    font-weight: normal !important;
-    font-family: sans-serif;
-    font-size: 80px ;
-}
-
-
-
 .circle-img{
     width: 250px;
     height: 250px;
@@ -110,6 +94,27 @@ height: 350px;
     text-align: center;
     align-content: center;
 }
+
+.menu_image img {
+    width: 800px; 
+    height: auto; 
+    padding: 10px;
+    padding-top: 80px;
+
+}
+
+h1{
+    font-weight: normal !important;
+    font-family: sans-serif;
+    font-size: 80px ;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
 
 /*shrink on phones */
 @media (max-width: 576px) {
