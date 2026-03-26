@@ -132,6 +132,20 @@ html{
   }
 }
 
+/* css for JAVA */
+
+.fade-target{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s ease;
+}
+
+.fade-in{
+opacity: 1;
+transform: translateY(0);
+}
+
+
 h2{
     font-family: serif;
     text-decoration: underline;
