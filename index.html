@@ -38,7 +38,7 @@
   </header>
 
   <!-- navigation bar -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
     <div class="container-fluid">
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -65,8 +65,8 @@
 
   <!-- this begins the main code -->
   <main>
-
-    <div class="container">
+  
+    <div class="container margin-page-top">
       <div class="row">
         <div class="col-md-5 left-side-subcontainer">
 
@@ -76,7 +76,7 @@
 
           <!-- Book Now BUTTON -->
 
-          <a class="btn btn-primary button-scroll-down">Book A Table</a>
+          <a href="#booking"class="btn btn-primary button-scroll-down">Book A Table</a>
 
           <!-- image -->
         </div>
@@ -116,7 +116,7 @@
                 <img src="images/main.svg" alt="Circle 2" class="circle-img circle-middle img-fluid fade-target">
                 <p class="text-center pt-3 fade-target">Main</p>
               </div>
-            
+
             </div>
 
             <div class="col col-md-4 d-flex justify-content-center">
@@ -130,7 +130,7 @@
 
 
         <div class="menu_image">
-          <img src="images/menu.jpg" class="img-fluid" alt="">
+          <img src="images/menu.jpg" class="img-fluid border border-black border-3" alt="">
         </div>
       </section>
       <div class="row">
@@ -140,21 +140,23 @@
       </div>
 
       <div class="container">
-      <div class="row">
-        <div class="col-md-5 left-side-subcontainer">
+        <div class="row">
+          <div class="col-md-12 left-side-subcontainer">
 
-  <!-- Google Map Section -->
-<div class="container-fluid mt-5">
-  <div class="row justify-content-center">
-    <div class="col-md-10 text-center">
-      <iframe 
-      class="map-embed"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.626972295874!2d-2.601910422320907!3d51.44664417179954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718dd4f41eef55%3A0xed3f6daaa70af47!2sWapping%20Wharf%2C%20Bristol!5e0!3m2!1sen!2suk!4v1774527623309!5m2!1sen!2suk"
-        loading="lazy">
-      </iframe>
-    </div>
-  </div>
-</div>
+            <!-- Google Map Section -->
+            <section id="booking">
+              <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.626972295874!2d-2.601910422320907!3d51.44664417179954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718dd4f41eef55%3A0xed3f6daaa70af47!2sWapping%20Wharf%2C%20Bristol!5e0!3m2!1sen!2suk!4v1774527623309!5m2!1sen!2suk"
+                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen=""
+                  loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+
 
 
 
