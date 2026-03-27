@@ -1,7 +1,13 @@
+@font-face{
+    font-family: myriad_pro;
+    src: url(fonts/MYRIADPRO-REGULAR.OTF)
+}
+
 body{
     background-color: #F2DCC2;
     margin: 0;
     color: black;
+    font-family: myriad_pro;
 }
 
 .big-header{
@@ -171,7 +177,7 @@ h2{
 }
 
 p {
-    font-family:sans-serif;
+    font-family: "Myriad Pro" !important;
     font-weight: 500;
     text-align: left;
     color:black;
