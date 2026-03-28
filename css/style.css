@@ -150,7 +150,7 @@ height: 350px;
   border: 0;
 }
 
-.map-circle{
+/* .map-circle{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -165,12 +165,27 @@ height: 350px;
     font-size: 18px;
     text-align: center;
     font-size: smaller;
+} */
+
+h4 {
+    color: #000000;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 30px;
 }
 
-h1{
-    font-weight: normal !important;
-    font-family: sans-serif;
-    font-size: 80px ;
+.booking-square{
+  background-color: #F2DCC2;
+}
+
+.btn{
+    background-color: #F2B84B;
+    border: none;
+    
+}
+
+.btn:hover {
+    background-color: #ebab22; 
 }
 
 html{
@@ -211,9 +226,7 @@ transform: translateY(0);
 
 
 h2{
-    font-family: serif;
-    text-decoration: underline;
-    color: #236E7A !important;
+    color: #ffffff !important;
 }
 
 .text-lower {
@@ -283,12 +296,6 @@ p {
     background: linear-gradient(180deg, #236E7A 0%, #121619 100%);
 }
 
-h4 {
-    font-family: serif;
-    color: #236E7A;
-    text-align: center;
-    text-decoration: underline;
-}
 
 .col-md-4 {
     display: flex;
@@ -320,27 +327,6 @@ h4 {
     box-sizing: border-box; /* ensures padding doesn't break layout */
 }
 
-@media (min-width: 1200px) {
-    .container{
-        max-width: 2000px;
-    }
-}
-
-/* for phones layout */
-@media (max-width:480px){
-    .big-header h1 {
-        font-size: clamp(1.5rem,5vw,3rem);
-    }
-    h1{
-        font-size: clamp(1.5rem, 5vw, 3rem);
-}
-    h2{
-        font-size: clamp(1.2rem, 4vw, 2.5rem);
-    }
-    h4{
-        font-size: clamp(1rem, 3vw, 1.8rem);
-    }
-}
 
 
  .left-side-subcontainer{
