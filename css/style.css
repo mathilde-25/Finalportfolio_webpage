@@ -15,6 +15,10 @@
   font-style: italic;
 }
 
+.barlow-condensed-regular-italic {
+    font-size: 22px;
+}
+
 
 body{
     background-color: #F2DCC2;
@@ -144,6 +148,23 @@ height: 350px;
   width: 100%;
   height: 500px;
   border: 0;
+}
+
+.map-circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+    width: 60px;
+    height: 60px;
+    background-color: #D30000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    font-size: smaller;
 }
 
 h1{
