@@ -71,6 +71,7 @@ body{
 .nav-link {
     white-space: nowrap; 
     color: white;
+    font-size: 20px;
 }
 
 .intro {
@@ -78,7 +79,9 @@ body{
 }
 
 .button-scroll-down {
-    padding: 50px;
+    padding: 20px;
+    width: 200px;
+    height: auto;
     background-color: #F2B84B;
     box-shadow: 0 6px 10px rgba(0,0,0,0.15);
     border: none;  
@@ -163,6 +166,13 @@ html{
     width: 300px;
     height: 300px;
   }
+
+  .bridge-img {
+    /* padding: 20px;
+    padding-bottom: 80px; */
+    width: 100%;
+    transform: scale(1.5);
+}
 }
 
 /* css for JAVA */
