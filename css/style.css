@@ -104,10 +104,16 @@ body{
 .custom-img {
   width: 100%;        
   height: auto;
-  clip-path: circle(35%);
-  shape-outside: circle(35%);
+  border-radius: 10%;
   object-fit: cover;   /* ensures image fills the circle nicely */
 }
+
+/* .custom-img {
+  width: 100%;        
+  height: auto;
+  clip-path: circle(35%);
+  shape-outside: circle(35%);
+  object-fit: cover; }  /* ensures image fills the circle nicely */  
 
 .bridge-img {
     padding: 20px;
