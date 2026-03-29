@@ -156,14 +156,14 @@ height: 350px;
   border: 0;
 }
 
-/* .map-circle{
+ .map-circle{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-30%, -50%);
-    width: 60px;
-    height: 60px;
-    background-color: #D30000;
+    transform: translate(-30%, -10%);
+    width: 110px;
+    height: 110px;
+    background-color: #79BD54;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -171,7 +171,8 @@ height: 350px;
     font-size: 18px;
     text-align: center;
     font-size: smaller;
-} */
+    z-index: 10;
+} 
 
 h4 {
     color: #000000;
