@@ -213,8 +213,6 @@ html{
   }
 
   .bridge-img {
-    /* padding: 20px;
-    padding-bottom: 80px; */
     width: 100%;
     transform: scale(1.5);
 }
@@ -248,82 +246,11 @@ p {
     color:black;
 }
 
-.big-header h1 {
-    color:black;
-    text-align: center;
-    font-family: serif;
-    word-wrap: break-word;  
-    overflow-wrap: break-word;
-    white-space: normal;
-    margin: 0 auto;
-    font-weight: 400;
-    line-height: normal;
-    white-space: nowrap;
-    
-}
-
-
-
-.nikolas{
-     text-align: center;
-    font-family:sans-serif;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-    font-size: 20px !important; 
-
-}
-
-.openAI {
-    text-align: center;
-    font-family:sans-serif;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-    opacity: 0.55;
-}
-
-.small-text {
-    color: white;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.special {
-    
-    font-weight: bold;
-    font-size: 40px;
-    text-align: left;
-}
-
-.text-box {
-    padding: 15px;
-    border-radius: 8px;
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    background: linear-gradient(180deg, #236E7A 0%, #121619 100%);
-}
-
-
 .col-md-4 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-}
-
-.text-box2 {
-    padding: 10px;
-    border-radius: 8px;
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    background: linear-gradient(180deg, #236E7A 0%, #121619 100%);
-}
-
-.img-right { 
-    margin-top: -50px !important; /* lowers far right image slightly to match far left one*/
 }
 
 .container {
