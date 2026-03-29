@@ -195,6 +195,11 @@ html{
     scroll-behavior: smooth;
 }
 
+#menu,
+#location,
+#booking {
+  scroll-margin-top: 220px;
+}
 
 
 
