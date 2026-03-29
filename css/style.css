@@ -106,14 +106,7 @@ body{
   height: auto;
   border-radius: 10%;
   object-fit: cover;   /* ensures image fills the circle nicely */
-}
-
-/* .custom-img {
-  width: 100%;        
-  height: auto;
-  clip-path: circle(35%);
-  shape-outside: circle(35%);
-  object-fit: cover; }  /* ensures image fills the circle nicely */  
+} 
 
 .bridge-img {
     padding: 20px;
@@ -204,6 +197,15 @@ html{
 
 /*shrink on phones */
 @media (max-width: 576px) {
+
+.map-circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    }
   
   .circle-middle {
     width: 300px;
