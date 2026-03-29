@@ -109,10 +109,13 @@ body{
 } 
 
 .bridge-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
     padding: 20px;
     padding-bottom: 80px;
-    width: 2000px;  
-    height: auto; 
+    display: block;
+    margin: 0 auto;
     
 }
 
@@ -216,6 +219,12 @@ html{
     width: 100%;
     transform: scale(1.5);
 }
+.menu_image img {
+    width: 90%;        
+    max-width: 350px;  
+    margin: 0 auto;    
+    display: block;
+}
 }
 
 /* css for JAVA */
@@ -273,5 +282,4 @@ p {
   .right-side-subcontainer{
     padding: 20pt;
     text-align: right;
-
  }
