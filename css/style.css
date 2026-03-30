@@ -288,3 +288,17 @@ p {
     padding: 20pt;
     text-align: right;
  }
+
+.footer,
+.footer * {
+  color: white !important;
+  background-color: #401b06;
+}
+
+ .footer a {
+  color: white;
+}
+
+.bottom-row{
+    background-color: #79BD54;
+}
